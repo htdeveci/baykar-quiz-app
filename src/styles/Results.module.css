@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.labelsRow {
+  min-height: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #007bff;
+}
+
+.labelCol {
+  border-right: 1px solid #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelCol:last-child {
+  border: none;
+}
+
+.resultsRow {
+  min-height: 3rem;
+  border-bottom: 1px dashed #007bff;
+}
+
+.resultsRow:last-child {
+  border: none;
+}
+
+.resultCol {
+  border-right: 1px dashed #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultCol:last-child {
+  border: none;
+}
